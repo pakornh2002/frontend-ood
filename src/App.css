@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.container{
+  max-width: 960px;
+  margin: 0 auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background: #800606    ;
+  height: 80px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-buay{
   display: flex;
-  flex-direction: column;
+  justify-content:space-between;
+  height: 80px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.MenuIcon{
+  color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu{
+  display: flex;
+  list-style-type: none;
+  /* flex-wrap: nowrap; */
+}
+.menu li{
+  padding-right: 40px;
+}
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+}
+.menu-link{
+  text-indent: 20px;
+}
+.home{
+  color: #fff;
+} 
+.payment-menu{
+  color:#fff;
+  background-color:#800606;
+  text-align: left;
+  width: fit-content;
+  padding: 1%;
+  margin-top: 2%;
+  border-radius: 10%;
+}
+.paymentdetail{
+  font-size: large;
+}
+.header_id{
+  font-size: x-large;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+.orderid_head{
+  font-size: large;
+  font-weight: bold;
 }
