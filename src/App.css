@@ -29,6 +29,7 @@
 }
 .menu-link{
   text-indent: 20px;
+  margin-top: 2%;
 }
 .home{
   color: #fff;
@@ -52,5 +53,23 @@
 }
 .orderid_head{
   font-size: large;
+  font-weight: bold;
+}
+.go-admin{
+  font-size: large;
+  font-weight: bold;
+}
+.input{
+  margin-top: 2%;
+}
+.button{
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.total{
   font-weight: bold;
 }

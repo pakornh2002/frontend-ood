@@ -147,18 +147,20 @@ class App extends Component {
                 <div key={item.stuid}>
                     {isFirstItem && <p className='orderid_head'>OrderID: {item.orderid}</p>}
                     <p>Course name: {item.coursename}</p>
-                    <p>Total Price: {item.totalprice}</p>
+                    <p>Course Price: {item.totalprice} บาท</p>
                 </div>
             )
             }
 
 
 )}
-Sum price {this.state.total_price}  
+<div className = 'total'>
+Total price: {this.state.total_price} บาท
+</div>
 
 <form>
-  <input type="file" onChange={this.onImageChange}></input>
-  <button type="submit" onClick={this.submit}>Submit</button>
+  <input className = 'input' type="file" onChange={this.onImageChange}></input>
+  <button className = 'button' type="submit" onClick={this.submit}>Submit</button>
 </form>
 <img src={this.state.image}></img>
           </div>
