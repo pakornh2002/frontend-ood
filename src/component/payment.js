@@ -101,29 +101,30 @@ class payment extends Component {
   }
 
   render() {
-    return (<div className='header'>
+    return (
+    <div className='header'>
       <div className='container'>
         <div className='header-buay'>
           <ul className='menu'>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a className = 'gotoadmin' href='/admin'>Go to admin page</a>
             </li>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a href='#'>คอร์สเรียน</a>
             </li>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a href='#'>คำถามที่พบบ่อย</a>
             </li>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a href='#'>ติดต่อเรา</a>
             </li>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a href='#'><FiShoppingCart /></a>
             </li>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a href='#'><FiUser /></a>
             </li>
-            <li className='menu-link'>
+            <li className='menu-link-payment'>
               <a href='#'>ออกจากระบบ</a>
             </li>
           </ul>
@@ -163,7 +164,7 @@ Total price: {this.state.total_price} บาท
   <button className = 'button' type="submit" onClick={this.submit}>Submit</button>
 </form>
 <h4 className='image-pre'>Image Preview</h4>
-<img className = 'image-show' src={this.state.image}></img>
+<img className = 'image-show' src={this.state.image} alt='Uploaded Image'></img>
           </div>
         </div>
       </div>

@@ -1,0 +1,29 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header{
+    background: #800606  ;
+    height: 80px;
+}
+.header-buay{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+.menu li{
+    padding-right: 2rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-link-admin{
+    margin-top: 10%;
+}

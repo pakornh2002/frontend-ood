@@ -27,7 +27,7 @@
     text-decoration: none;
     color: #fff;
   }
-  .menu-link{
+  .menu-link-payment{
     text-indent: 20px;
     margin-top: 2%;
   }
@@ -37,11 +37,12 @@
   .payment-menu{
     color:#fff;
     background-color:#800606;
-    text-align: left;
     width: fit-content;
     padding: 1%;
     margin-top: 2%;
-    border-radius: 10%;
+    border-radius: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .paymentdetail{
     font-size: large;
