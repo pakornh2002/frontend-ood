@@ -70,7 +70,6 @@ class Admin extends Component {
       <h2 className="update-header">Update Buy Status</h2>
       <tr className = 'table-header'>
         <th>Student ID</th>
-        <th>Course ID</th>
         <th>Order ID</th>
         <th>Price</th>
         <th>Datetime</th>
@@ -83,7 +82,6 @@ class Admin extends Component {
   {Array.isArray(this.state.checkslip) && this.state.checkslip.map(checkslip => (
     <tr className = 'update-table' key={checkslip.Student_buyID}>
       <td><p className="my-5">{checkslip.Student_buyID}</p></td>
-      <td><p className="my-5">{checkslip.Course_buyID}</p></td>
       <td><p className="my-5">{checkslip.OrderID}</p></td>
       <td><p className="my-5">{checkslip.Total_price}</p></td>
       <td><p className="my-5">{checkslip.Buy_date}</p></td>
